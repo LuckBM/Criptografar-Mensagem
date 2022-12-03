@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/fundo.png);
+    color: rgb(9, 255, 0);
+    text-shadow: 0em 0.6em 6em rgb(9, 255, 0);
+    line-height: 30px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+/* Caixa de texto */
+textarea{
+
+    width: 350px;
+    box-shadow: 0em 0.3em 0.6em rgb(0, 0, 0);
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+    border: solid 2px;
+    
+}
+
+textarea:hover{
+    border-radius: 0.6em;
+    box-shadow: 0em 0.6em 6.25em rgb(9, 255, 0);
+}
+
+/* Botão */
+button{
+    width: 90px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 0em 0m 6em rgb(9, 255, 0);
+
+    border-radius: 0.6em;
+    border-color: rgb(9, 255, 0);
+    border: solid 2px;
+    transition: 0.5s;
+}
+
+button:hover{
+    cursor: pointer; 
+}
+
+/* Corpo */
+.container { 
+    margin-left: 28.1em; 
+    margin-right: 28.1em; 
+}
+
+@media (max-width:600px){
+    .container { 
+        margin-left: 0em; 
+        margin-right: 0em; 
+    }
+}
+
+@media (max-width:1000px){
+    .container { 
+        margin-left: 0em; 
+        margin-right: 0em; 
+    }
+}
+
+
+/* Selecionar Chave */
+.select{
+    margin-bottom: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 0em 0m 6em rgb(9, 255, 0);
+
+    border-radius: 0.6em;
+    border-color: rgb(9, 255, 0);
+    border: solid 2px;
+}
+
+.select:hover{
+    cursor: pointer;
+}
+
+/* Chave */
+.chave-container{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 0em 0m 6em rgb(9, 255, 0);
+    border-color: rgb(9, 255, 0);
+    border: solid 2px;
+    transition: 0.5s;
+}
+
+.chave-container:hover{
+    border-radius: 0.6em;
+}
+
+/* Rodapé */
+footer img {
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+footer img:hover{
+    transform: scale(150%);
+    opacity: 100%;
+  
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+

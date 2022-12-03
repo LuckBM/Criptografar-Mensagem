@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    
+    <link rel="stylesheet" href="css/index.css">
+    
+    <script defer src="js/script.js"></script>
+
+    <link rel="shortcut icon" href="./img/iconesite.png" type="image/x-icon">
+
+    <title>Codificador</title>
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Criptografar</h1>
+         
+            <form action="#">
+                <textarea name="mensagem" id="mensagem" cols="50" rows="4"
+                    placeholder="Escreva Aqui"></textarea>
+
+                <label id="selecione" for="select"></label>
+                <select name="select" class="select" id="select">
+                    <option value="selecione" disabled selected>Selecione</option>
+                    <option value="base64">Base64</option>
+                    <option value="cifra">Cifra de César</option>
+                </select>
+                <div class="chave-container">
+                    <label class="chave" for="range">Chave</label>
+                    <div class="slider-range">
+                        <input type="range" value="1" min="1" max="26" class="range" id="range"
+                            oninput="rangenumber.value=value" />
+                        <input type="number" value="1" id="rangenumber" min="1" max="26" oninput="range.value=value" />
+                    </div>
+                </div>
+
+                <div class="radio-button">
+                    <div class="radio">
+                        <input type="radio" name="codificar" id="codificar" value="codificar" checked />
+                        <label for="codificar">Codificar</label>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" name="codificar" id="decodificar" value="decodificar" />
+                        <label for="decodificar">Decodificar</label>
+                    </div>
+                </div>
+
+                <textarea id="resultado" class="mensagem resultado" cols="50" rows="4" readonly
+                    placeholder="Resultado"></textarea>
+                <div class="btn">
+                    <button>Codificar</button>
+                </div>
+            </form>
+
+            
+            
+
+
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.instagram.com/luckxdgamer/?next=%2F" target="_blank" rel="noopener noreferrer">
+            <img src="./img/icon1.png">
+            <p>Instagram</p>
+        </a>
+
+        <a href="https://github.com/LuckBM" target="_blank" rel="noopener noreferrer">
+            <img src="./img/icon2.png">
+            <p>GitHub</p>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCTkf3ixjoLjv9NRlLN6RQyA" target="_blank"
+            rel="noopener noreferrer">
+            <img src="./img/icon3.png">
+            <p>Youtube</p>
+        </a>
+
+    </footer>
+</body>
+
+</html>
