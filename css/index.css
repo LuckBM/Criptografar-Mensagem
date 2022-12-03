@@ -52,20 +52,6 @@ button:hover{
     margin-right: 28.1em; 
 }
 
-@media (max-width:600px){
-    .container { 
-        margin-left: 0em; 
-        margin-right: 0em; 
-    }
-}
-
-@media (max-width:1000px){
-    .container { 
-        margin-left: 0em; 
-        margin-right: 0em; 
-    }
-}
-
 
 /* Selecionar Chave */
 .select{
@@ -126,5 +112,19 @@ footer a {
 
 footer p {
     margin-top: 2px;
+}
+
+@media (max-width:600px){
+    .container { 
+        margin-left: 0em; 
+        margin-right: 0em; 
+    }
+}
+
+@media (max-width:1000px){
+    .container { 
+        margin-left: 0em; 
+        margin-right: 0em; 
+    }
 }
 
